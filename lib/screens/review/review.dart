@@ -10,7 +10,7 @@ class Review extends StatefulWidget {
 class _ReviewState extends State<Review> {
   TextEditingController commentController = new TextEditingController();
   // Pass in Location from Maps
-  String location = ""
+  String location = "";
   String comment = "";
   double rating1 = 0.0;
   double rating2 = 0.0;
